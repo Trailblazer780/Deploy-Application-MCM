@@ -19,6 +19,6 @@ Next we want to create a folder called `MSTeamsMSI` inside of the `Applications`
 
 Once we have that folder created we now want to move our Microsoft Teams MSI that we downloaded earlier into the `MSTeamsMSI` folder.
 
-![alt text](_images/3-msi-inside-of-folder)
+![alt text](_images/3-msi-inside-of-folder.png)
 
 
