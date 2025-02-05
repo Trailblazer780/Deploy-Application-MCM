@@ -15,10 +15,10 @@ The next step in the process is to create a directory on our machine that is run
 
 Next we want to create a folder called `MSTeamsMSI` inside of the `Applications` folder.
 
-![alt text](../_images/2-msteams-folder-created.png)
+![alt text](_images/2-msteams-folder-created.png)
 
 Once we have that folder created we now want to move our Microsoft Teams MSI that we downloaded earlier into the `MSTeamsMSI` folder.
 
-![alt text](../_images/3-msi-inside-of-folder)
+![alt text](_images/3-msi-inside-of-folder)
 
 
