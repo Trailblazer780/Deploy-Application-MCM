@@ -7,6 +7,7 @@ This documentation will show you how to successfully deploy an application using
 2. [Creating the Device Collection in MCM](#Creating-the-Device-Collection-in-MCM)
 3. [Adding the Application to MCM](#Adding-the-Application-to-MCM)
 4. [Deploying the Application](#Deploying-the-Application)
+5. [Checking if the Deployment was Successful](#Checking-if-the-Deployment-was-Successful)
 
 ## Getting the Installer Ready
 First thing we need to do is get the MSI of the application we wish to install. For this example I will be using Microsoft Teams which can be downloaded from the link below.
@@ -119,5 +120,14 @@ After that setting is changed we can click `Next` until we see the completion sc
 
 ![alt text](_images/24-deployment-created.png)
 
+## Checking if the Deployment was Successful
+
 Once this is complete you should be able to see that applcation in `Software Center` and Microsoft Teams will Automatically install on your devices that are within the selected device collection.
+
+![alt text](_images/25-software-center.png)
+
+Back on our machine that has MCM on it we can check on the compliance of the deployment. To do this we need to go to `Monitoring` and select `Deployments`. Here we can see our deployment and can check in the status of all of the machines that are targeted and check 
+the progress and see if machine had failures or if the application was installed successfully. Note that it may take some time for the machine to report back that it has been installed.
+
+![alt text](_images/26-monitoring.png)
 
