@@ -1,6 +1,6 @@
 # Deploying an Application using Microsoft Configuration Manager
 
-This documentation will show you how to successfully deploy an application using Microsoft Configuration Manager. This documentation assumes that you already have MCM and all of its dependancies already installed and running.\
+This documentation will show you how to successfully deploy an application using Microsoft Configuration Manager. This documentation assumes that you already have MCM and all of its dependancies already installed and running.
 
 If you do not have any of this set up Microsoft offers a solution in the form of a lab kit for HyperV. You can obtain this lab kit from the link below.
 - [Windows 11 and Office 365 Deployment Lab Kit](https://www.microsoft.com/en-us/evalcenter/download-windows-11-office-365-lab-kit)
