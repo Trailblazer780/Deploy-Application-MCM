@@ -8,6 +8,7 @@ This documentation will show you how to successfully deploy an application using
 3. [Adding the Application to MCM](#Adding-the-Application-to-MCM)
 4. [Deploying the Application](#Deploying-the-Application)
 5. [Checking if the Deployment was Successful](#Checking-if-the-Deployment-was-Successful)
+6. [Conclusion](#Conclusion)
 
 ## Getting the Installer Ready
 First thing we need to do is get the MSI of the application we wish to install. For this example I will be using Microsoft Teams which can be downloaded from the link below.
@@ -131,3 +132,12 @@ the progress and see if machine had failures or if the application was installed
 
 ![alt text](_images/26-monitoring.png)
 
+After waiting some time we can now see that the device was successful at installing the deployed applcation
+
+![alt text](_images/27-success-report.png)
+
+## Conclusion
+
+After completing all of these steps you should be able to successfully deploy an applcation using the Microsoft Configuration Manager. This tool is widely used as an 
+on-prem solution for management of devices. There is so much more you can do with this tool and I employ you to dig deeper and find out the true power of using a tool
+like this to manage the equipment in your workplace!
