@@ -1,6 +1,6 @@
 # Deploying an Application using Microsoft Configuration Manager
 
-This documentation will show you how to successfully deploy an application using Microsoft Configuration Manager.
+This documentation will show you how to successfully deploy an application using Microsoft Configuration Manager. This documentation assumes that you already have MCM and all of its dependancies already installed and running.
 
 # Table of Contents:
 1. [Getting The Installer Ready](#Getting-the-Installer-Ready)
