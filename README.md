@@ -119,5 +119,5 @@ After that setting is changed we can click `Next` until we see the completion sc
 
 ![alt text](_images/24-deployment-created.png)
 
-Once this is complete you should be able to see that applcation in `Software Center` and Microsoft Teams will Automatically install on your device that are within the selected device collection.
+Once this is complete you should be able to see that applcation in `Software Center` and Microsoft Teams will Automatically install on your devices that are within the selected device collection.
 
