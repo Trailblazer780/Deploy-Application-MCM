@@ -4,6 +4,7 @@ This documentation will show you how to successfully deploy an application using
 
 # Table of Contents:
 1. [Getting The Installer Ready](#Getting-the-Installer-Ready)
+2. [Creating the Device Collection in MCM](#Creating-the-Device-Collection-in-MCM)
 
 ## Getting the Installer Ready
 First thing we need to do is get the MSI of the application we wish to install. For this example I will be using Microsoft Teams which can be downloaded from the link below.
@@ -21,4 +22,28 @@ Once we have that folder created we now want to move our Microsoft Teams MSI tha
 
 ![alt text](_images/3-msi-inside-of-folder.png)
 
+## Creating the Device Collection in MCM
 
+In MCM we want to navigate to our `Assets and Compliance` and go to `Overview` and select `Device Collections`.
+
+![alt text](_images/4-create-device-collection.png)
+
+We want to right click and select `Create Device Collection`.
+
+![alt text](_images/5-device-collection-creation.png)
+
+Name the Device Collection `Microsoft Teams Deployment`.
+
+![alt text](_images/6-name-collection.png)
+
+Once we have it name we now want to click on the `Browse` button for the `Limiting Collection`. Once the window opens up we will select `All Systems` and click `Ok`.
+
+![alt text](_images/7-select-all-systems.png)
+
+Once that is complete click on the `Next` button to go to the `Membership Rules`. Click `Add Rule` and this will open a drop down and select `Direct Rule`.
+
+![alt text](_images/8-direct-rule.png)
+
+When the Welcome screen pops up click `Next`. We can leave the default `Resource class` and `Attribute name` selections and for the `Value` field we want to put the name of the client we are wish to deploy the application to, in this case my machine is name `CLIENT2` and click `Next`.
+
+![alt text](_images/9-select-resources.png)
