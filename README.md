@@ -5,8 +5,8 @@ This documentation will show you how to successfully deploy an application using
 # Table of Contents:
 1. [Getting The Installer Ready](#Getting-the-Installer-Ready)
 2. [Creating the Device Collection in MCM](#Creating-the-Device-Collection-in-MCM)
-3. [Adding the Application to MCM](Adding-the-Application-to-MCM)
-4. [Deploying the Application](Deploying-the-Application)
+3. [Adding the Application to MCM](#Adding-the-Application-to-MCM)
+4. [Deploying the Application](#Deploying-the-Application)
 
 ## Getting the Installer Ready
 First thing we need to do is get the MSI of the application we wish to install. For this example I will be using Microsoft Teams which can be downloaded from the link below.
